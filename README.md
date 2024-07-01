@@ -25,6 +25,7 @@ These modules were developed using the Scapy library in Python, which offers gre
 ## Usage
 
 To install the `mitm` package use : `python3 setup.py install --user`
+
 Make sure to install the `Scapy` library : `sudo apt install scapy`
 
 ### Using the atk.py module for ARP attack
