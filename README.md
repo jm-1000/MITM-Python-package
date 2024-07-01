@@ -29,20 +29,25 @@ Make sure to install the `Scapy` library : `sudo apt install scapy`
 
 ### Using the atk.py module for ARP attack
 ![atk](/images/atk1.png)
+
 This screenshot presents the usege of the `atk.py` module to conduct an ARP poisoning attack. You can see that the parameters are the IP addresses of the client and server.
 
 ### Capturing HTTP traffic with the listen.py module
 ![http](/images/http.png)
+
 In this screenshot, we demonstrate the use of the `listen.py` module to capture HTTP traffic between the client and the server. You can observe the HTTP requests and responses that are intercepted and displayed by the module.
 
 ### Capturing DNS requests with the listen.py module
 ![dns](/images/dns.png)
+
 This screenshot presents the use of the `listen.py` module to capture DNS requests made by the client. You can observe the DNS requests that are intercepted and displayed by the module.
 
 ### Detecting an ARP attack with the detect.py module
 ![detect](/images/detect.png)
+
 This screenshot presents the use of the `detect.py` module to detect an ARP poisoning attack. You can see the warning displayed by the module, indicating that a MAC address is associated with multiple IP addresses.
 
 ### Using the atk.py module for DHCP attack
 ![atk2](/images/atk2.png)
+
 In this screenshot, we illustrate the use of the `atk.py` module to conduct a DHCP-based MITM attack. You can see the command used to forge the falsified DHCP responses, which will be sent to the client. These responses contain false network configuration information, including a fake default router.
