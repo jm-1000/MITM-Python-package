@@ -24,7 +24,7 @@ These modules were developed using the Scapy library in Python, which offers gre
 
 ## Usage
 
-We conducted MITM attack experiments using our `mitm` package and present some screenshots here to illustrate these experiments. 
+To install the `mitm` package use : `python3 setup.py install --user`
 
 ### Using the atk.py module for ARP attack
 ![atk](/images/atk1.png)
